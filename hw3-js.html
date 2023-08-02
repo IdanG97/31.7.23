@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseInt(prompt('Write a number between 0-100'))
+        while (a > 100 || a < 0) {
+            a = parseInt(prompt('The given number is not in the number rage. Write a number between 0-100'))
+        }
+        if (a <= 55) {
+            console.log('BAD')
+        }
+        else if (a <= 64) {
+            console.log('PRETTY BAD')
+        }
+        else if (a <= 74) {
+            console.log('ALMOST GOOD')
+        }
+        else if (a <= 84) {
+            console.log('GOOD')
+        }
+        else if (a <= 94) {
+            console.log('VERY GOOD')
+        }
+        else {
+            console.log('EXCELLENT')
+        }
+
+    </script>
+</body>
+
+</html>
