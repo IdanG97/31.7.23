@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseInt(prompt('Write a number between 0-1,000'))
+        while (a > 1000 || a < 0) {
+            a = parseInt(prompt('The given number is not in the number range. Write a number between 0-1,000'))
+        }
+        if (a < 10) {
+            console.log('1 digit')
+        }
+        else if (a <= 99) {
+            console.log('2 digits')
+        }
+        else if (a <= 999) {
+            console.log('3 digits')
+        }
+        else {
+            console.log('4 digits')
+        }
+    </script>
+</body>
+
+</html>
